@@ -27,12 +27,9 @@ void black_white(){
 	fwrite(byte,sizeof(unsigned char),54,fOut);			//write the header back
 
 	// extract image height, width and bitDepth from imageHeader 
-	int height = *(int*)&byte[18];
-	int width = *(int*)&byte[22];
-	int bitDepth = *(int*)&byte[28];
-
-	// printf("width: %d\n",width);
-	// printf("height: %d\n",height );
+	int height = 512;
+	int width = 512;
+	int bitDepth = 8;
 
 	int size=height*width;								//calculate image size
 
@@ -82,9 +79,9 @@ void image_blur_color(){
 	fwrite(byte,sizeof(unsigned char),54,fOut);					//write the header back
 
 	// extract image height, width and bitDepth from imageHeader 
-	int height = *(int*)&byte[18];
-	int width = *(int*)&byte[22];
-	int bitDepth = *(int*)&byte[28];
+	int height = 512;
+	int width = 512;
+	int bitDepth = 8;
 
 	// printf("width: %d\n",width);
 	// printf("height: %d\n",height );
@@ -168,9 +165,9 @@ void image_blur_gray(){
 	fwrite(byte,sizeof(unsigned char),54,fOut);					//write the header back
 
 	// extract image height, width and bitDepth from imageHeader 
-	int height = *(int*)&byte[18];
-	int width = *(int*)&byte[22];
-	int bitDepth = *(int*)&byte[28];
+	int height = 512;
+	int width = 512;
+	int bitDepth = 8;
 
 	// printf("width: %d\n",width);
 	// printf("height: %d\n",height );
@@ -239,9 +236,9 @@ void image_bright(){
 	fwrite(byte,sizeof(unsigned char),54,fOut);		//write the header back
 
 	// extract image height, width and bitDepth from imageHeader 
-	int height = *(int*)&byte[18];
-	int width = *(int*)&byte[22];
-	int bitDepth = *(int*)&byte[28];
+	int height = 512;
+	int width = 512;
+	int bitDepth = 8;
 
 	// printf("width: %d\n",width);
 	// printf("height: %d\n",height );
@@ -300,9 +297,9 @@ void image_colortosepia(){
 	fwrite(byte,sizeof(unsigned char),54,fOut);					//write the header back
 
 	// extract image height, width and bitDepth from imageHeader 
-	int height = *(int*)&byte[18];
-	int width = *(int*)&byte[22];
-	int bitDepth = *(int*)&byte[28];
+	int height = 512;
+	int width = 512;
+	int bitDepth = 8;
 
 	// printf("width: %d\n",width);
 	// printf("height: %d\n",height );
@@ -430,9 +427,9 @@ void image_dark(){
 	fwrite(byte,sizeof(unsigned char),54,fOut);				//write the header back
 
 	// extract image height, width and bitDepth from imageHeader 
-	int height = *(int*)&byte[18];
-	int width = *(int*)&byte[22];
-	int bitDepth = *(int*)&byte[28];
+	int height = 512;
+	int width = 512;
+	int bitDepth = 8;
 
 	// printf("width: %d\n",width);
 	// printf("height: %d\n",height );
@@ -486,9 +483,9 @@ void image_rgbtogray(){
 	fwrite(byte,sizeof(unsigned char),54,fOut);					//write the header back
 
 	// extract image height, width and bitDepth from imageHeader 
-	int height = *(int*)&byte[18];
-	int width = *(int*)&byte[22];
-	int bitDepth = *(int*)&byte[28];
+	int height = 512;
+	int width = 512;
+	int bitDepth = 8;
 
 	// printf("width: %d\n",width);
 	// printf("height: %d\n",height );
@@ -541,9 +538,9 @@ void image_rotate(){
 	fwrite(byte,sizeof(unsigned char),54,fOut);				//write the header back
 
 	// extract image height, width and bitDepth from imageHeader 
-	int height = *(int*)&byte[18];
-	int width = *(int*)&byte[22];
-	int bitDepth = *(int*)&byte[28];
+	int height = 512;
+	int width = 512;
+	int bitDepth = 8;
 
 	// printf("width: %d\n",width);
 	// printf("height: %d\n",height );
