@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 	start_rapl_sysfs(); // (3) Iniciar a contagem de consumo de energia
     clock_t t = clock(); // Iniciar a contagem de tempo
         /* (4) Chamar aqui a função que faz o que você deseja medir o tempo e a energia */
-    
+    system("java Java/LongestCommonSubsequence");
         /*************************************************/
     t = clock() - t; // Finalizar contagem do tempo
     double energy = end_rapl_sysfs();   // (5) Finalizar a contagem dos contadores de energia
