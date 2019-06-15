@@ -1,7 +1,8 @@
 /* (1) Incluir Header file para ter acesso as funções para ter o consumo de energia */
 #include "energia.h" 
 
-#include <bits/stdc++.h> 
+#include <stdio.h>
+#include <stdlib.h>
 
 int max(int a, int b); 
 int lcs_c();
