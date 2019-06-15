@@ -68,7 +68,8 @@ int main(int argc, char* argv[])
     //system("java LongestCommonSubsequence");
       
     //C/C++ LCS
-    lcs_c();
+    //lcs_c();
+    system("./LCS");
 
     //Python
     //system("python LCS.py");
