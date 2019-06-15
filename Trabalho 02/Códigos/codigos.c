@@ -71,7 +71,7 @@ int main(int argc, char* argv[])
     lcs_c();
 
     //Python
-    //python LCS.py
+    //system("python LCS.py");
     /*****************************************/   
     t = clock() - t; // Finalizar contagem do tempo
     double energy = end_rapl_sysfs();   // (5) Finalizar a contagem dos contadores de energia
