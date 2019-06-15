@@ -1,4 +1,4 @@
 codigos: codigos.c energia.c
-	gcc -o codigos codigos.c energia.c -I
+	gcc -o codigos codigos.c energia.c
 clean:
 	rm codigos
