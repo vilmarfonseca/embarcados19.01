@@ -64,16 +64,31 @@ int main(int argc, char* argv[])
     start_rapl_sysfs(); // (3) Iniciar a contagem de consumo de energia
     clock_t t = clock(); // Iniciar a contagem de tempo
     /*****************************************/
+    //LCS
+
     //Java LCS
     //system("java LongestCommonSubsequence");
       
     //C/C++ LCS
     //lcs_c();
-    system("./LCS");
+    //system("./LCS");
 
-    //Python
+    //Python LCS
     //system("python LCS.py");
-    /*****************************************/   
+
+    /*****************************************/
+    //LCS Optmized 
+   
+    //Java LCSopt
+    //system("java LCSopt");
+
+    //C/C++ LCSopt
+    //system("./LCSopt");
+
+    //Python LCSopt
+    system("python LCSopt.py");
+    /*****************************************/
+
     t = clock() - t; // Finalizar contagem do tempo
     double energy = end_rapl_sysfs();   // (5) Finalizar a contagem dos contadores de energia
     double tempo = ((double)t)/CLOCKS_PER_SEC; // transforma tempo para segundos

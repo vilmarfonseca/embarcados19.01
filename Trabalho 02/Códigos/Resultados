@@ -1,4 +1,4 @@
---------------------------------------
+----------------LCS-------------------
 C/C++:
 
 Tempo de execucao em segundos: 0.00001
@@ -18,4 +18,22 @@ Java:
 
 Tempo de execucao em segundos: 0.00016
 Energia consumida em Joules:   6.41371
+--------------------------------------
+
+
+--------------LCSopt------------------
+C/C++:
+
+Tempo de execucao em segundos: 0.00014
+Energia consumida em Joules:   0.03416
+--------------------------------------
+Python:
+
+Tempo de execucao em segundos: 0.00013
+Energia consumida em Joules:   0.24179
+--------------------------------------
+Java:
+
+Tempo de execucao em segundos: 0.00014
+Energia consumida em Joules:   2.79496
 --------------------------------------
