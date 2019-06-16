@@ -67,28 +67,40 @@ int main(int argc, char* argv[])
     //LCS
 
     //Java LCS
-    //system("java LongestCommonSubsequence");
+    //system("java LCS_code/LongestCommonSubsequence.java");
       
     //C/C++ LCS
     //lcs_c();
     //system("./LCS");
 
     //Python LCS
-    //system("python LCS.py");
+    //system("python LCS/LCS.py");
 
     /*****************************************/
     //LCS Optmized 
    
     //Java LCSopt
-    //system("java LCSopt");
+    //system("java LCS/LCSopt.java");
 
     //C/C++ LCSopt
     //system("./LCSopt");
 
     //Python LCSopt
-    system("python LCSopt.py");
+    //system("python LCS_code/LCSopt.py");
     /*****************************************/
 
+    /*****************************************/
+    //Modular Exponentiation 
+   
+    //Java GFGS
+    //system("java GFG/GFG.java");
+
+    //C/C++ GFG
+    //system("./GFG");
+
+    //Python GFG
+    //system("python GFG_code/GFG.py");
+    /*****************************************/
     t = clock() - t; // Finalizar contagem do tempo
     double energy = end_rapl_sysfs();   // (5) Finalizar a contagem dos contadores de energia
     double tempo = ((double)t)/CLOCKS_PER_SEC; // transforma tempo para segundos
